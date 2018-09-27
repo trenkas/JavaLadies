@@ -15,6 +15,6 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "hometask2.Student " + name + " age of " + age + " studies in grade " + grade ;
+        return "Student " + name + " age of " + age + " studies in grade " + grade ;
     }
 }

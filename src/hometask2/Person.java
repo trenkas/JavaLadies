@@ -22,7 +22,7 @@ public class Person {
 
     public void showSubject() {
         Subject[] values = Subject.values();
-        System.out.printf("hometask2.Student " + name + " studies the following list of subjects: ");
+        System.out.printf("Student " + name + " studies the following list of subjects: ");
         for (Subject value : values) {
             System.out.printf(value.name() +" , ");
 
